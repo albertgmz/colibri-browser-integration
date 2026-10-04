@@ -1,0 +1,49 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "version": "0.5.0",
+  "description": "__MSG_extDescription__",
+  "default_locale": "en",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuywiCytcWjzgmmxtn25LYgdty1uuY6EbUgfIkIVA7ijsyJtRIDrjTY58W8RUjRCNTohI/5N1oBVo7s+PnYv7n8BRLRPzbvieKFYn2/FieAk2Ac3odOYFsaRrzMsbV8X/+UFlIBwQnwWw7dBmy9+iMbtH7ni72oKJJRiTiDRaTfgCbAc/GPMFjgnZM4CGgvcORbXlihFBv3+qIBKONRJKxEyo7c7JA2yMMp8VKfLApzLYZGppIK36euwFJHCgz1+xbAxWBr6ZDGYvkhpckJTPzbwiOBh/F8tNVAnbR7VRgXGI6BfKRS2O+R/Ek83HVxB5DzRJE2GDwxGtuyLA23QNawIDAQAB",
+  "permissions": [
+    "downloads",
+    "nativeMessaging",
+    "cookies",
+    "contextMenus",
+    "storage",
+    "webRequest"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*",
+    "ftp://*/*"
+  ],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "__MSG_extName__",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "colibri-browser-integration@colibri.download",
+      "strict_min_version": "140.0",
+      "data_collection_permissions": {
+        "required": [
+          "browsingActivity",
+          "websiteContent",
+          "websiteActivity",
+          "authenticationInfo"
+        ]
+      }
+    }
+  }
+}

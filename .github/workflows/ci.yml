@@ -1,0 +1,36 @@
+name: Extension
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Validate contributed language catalogs
+        run: node scripts/validate-locales.mjs
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm test
+      - run: npm run zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: browser-zips
+          path: .output/*.zip
+      - uses: actions/checkout@v4
+        with:
+          repository: albertgmz/Colibri
+          ref: main
+          path: canonical-app
+      - name: Verify canonical protocol and token drift
+        env:
+          COLIBRI_APP_ROOT: canonical-app
+        run: npm test -- tests/drift.test.ts

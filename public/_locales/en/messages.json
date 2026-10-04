@@ -1,0 +1,338 @@
+{
+  "extName": {
+    "message": "Colibri"
+  },
+  "extDescription": {
+    "message": "Hands your downloads over to the Colibri download manager."
+  },
+  "contextMenuDownload": {
+    "message": "Download with Colibri"
+  },
+  "popupCapture": {
+    "message": "Capture downloads"
+  },
+  "popupCaptureHint": {
+    "message": "Eligible downloads follow Colibri’s Capture, Ask or Keep in browser policy. Safety restrictions and exclusions take precedence."
+  },
+  "popupStatusChecking": {
+    "message": "Checking the connection…"
+  },
+  "popupStatusConnected": {
+    "message": "Connected to Colibri"
+  },
+  "popupStatusNotRunning": {
+    "message": "Colibri is not running. It starts when a download is captured."
+  },
+  "popupStatusHostMissing": {
+    "message": "Native host missing or access denied. Open Colibri → Settings → Browser integration → Install / repair."
+  },
+  "popupStatusError": {
+    "message": "Colibri cannot be reached."
+  },
+  "contextMenuMedia": {
+    "message": "Download this media with Colibri"
+  },
+  "contextMenuAll": {
+    "message": "Choose page links for Colibri"
+  },
+  "contextMenuSelected": {
+    "message": "Choose selected links for Colibri"
+  },
+  "popupSite": {
+    "message": "Do not capture on this site"
+  },
+  "popupOpen": {
+    "message": "Open Colibri"
+  },
+  "popupRecent": {
+    "message": "Recent captures"
+  },
+  "popupEmpty": {
+    "message": "No captures yet"
+  },
+  "capturePending": {
+    "message": "Waiting for confirmation"
+  },
+  "captureAccepted": {
+    "message": "Accepted by Colibri"
+  },
+  "captureBrowser": {
+    "message": "Kept in browser"
+  },
+  "captureAttention": {
+    "message": "Paused in browser: Colibri has not confirmed cleanup. Open Colibri and stop its transfer before manually resuming this file from your browser's Downloads page."
+  },
+  "onboardingTitle": {
+    "message": "Connect your browser to Colibri"
+  },
+  "onboardingIntro": {
+    "message": "Install Colibri, then enable its native browser integration."
+  },
+  "onboardingStepOne": {
+    "message": "Open Colibri and select Settings → Browser integration."
+  },
+  "onboardingStepTwo": {
+    "message": "Choose Install / repair for this browser. Keep the browser extension enabled."
+  },
+  "onboardingStepThree": {
+    "message": "Return here and check the connection. For private windows, allow this extension in the browser’s extension settings and enable private capture in Colibri."
+  },
+  "onboardingRetry": {
+    "message": "Check connection"
+  },
+  "popupUpdateError": {
+    "message": "Colibri could not save this change. Reconnect and try again."
+  },
+  "popupNoSite": {
+    "message": "Open a website to change its capture setting."
+  },
+  "popupProtocolError": {
+    "message": "Update Colibri and this extension to compatible versions."
+  },
+  "pickerTitle": {
+    "message": "Choose links for Colibri"
+  },
+  "pickerIntro": {
+    "message": "Review up to 500 discovered links. Nothing is fetched until you choose links and continue."
+  },
+  "pickerDestination": {
+    "message": "Filename categories are hints. Colibri applies its destination and queue settings; this version cannot preview them."
+  },
+  "pickerReady": {
+    "message": "Choose the links you want to send. This list expires after five minutes."
+  },
+  "pickerSearch": {
+    "message": "Search filename, type or domain"
+  },
+  "pickerSelect": {
+    "message": "Select visible"
+  },
+  "pickerClear": {
+    "message": "Clear visible"
+  },
+  "pickerEmpty": {
+    "message": "No matching links"
+  },
+  "pickerSubmit": {
+    "message": "Continue in Colibri"
+  },
+  "pickerClose": {
+    "message": "Close"
+  },
+  "pickerUnnamed": {
+    "message": "Link with no filename"
+  },
+  "pickerUnknownType": {
+    "message": "Type unknown"
+  },
+  "pickerUnknownSize": {
+    "message": "Size unknown"
+  },
+  "pickerExcludedRow": {
+    "message": "Excluded by Colibri settings"
+  },
+  "pickerPending": {
+    "message": "Waiting for Colibri confirmation. This list cannot be submitted again while the offer is pending."
+  },
+  "pickerAccepted": {
+    "message": "Colibri accepted the confirmed selection. Review its download list for individual transfers."
+  },
+  "pickerBrowser": {
+    "message": "Acceptance was not confirmed. Check Colibri before opening a new picker; a lost reply can leave an app transfer running. No browser downloads were canceled."
+  },
+  "pickerAttention": {
+    "message": "Colibri has not confirmed cleanup. Open Colibri and review or stop its transfers before trying again."
+  },
+  "pickerExpired": {
+    "message": "This list expired or its browser session ended. Use the page menu to collect links again."
+  },
+  "pickerInvalid": {
+    "message": "Choose 1–100 valid links. If their request context is too large, collect a smaller selection."
+  },
+  "pickerExcluded": {
+    "message": "A selected link or its source page is now excluded. Review your Colibri settings and collect links again."
+  },
+  "pickerPrivate": {
+    "message": "Private capture is disabled in Colibri. This selection was not sent."
+  },
+  "pickerType": {
+    "message": "$TYPE$ filename",
+    "placeholders": {
+      "type": {
+        "content": "$1"
+      }
+    }
+  },
+  "pickerCount": {
+    "message": "$SELECTED$ / $LIMIT$ selected · $TOTAL$ discovered",
+    "placeholders": {
+      "selected": {
+        "content": "$1"
+      },
+      "limit": {
+        "content": "$2"
+      },
+      "total": {
+        "content": "$3"
+      }
+    }
+  },
+  "popupSetup": {
+    "message": "Connection help"
+  },
+  "popupSiteScoped": {
+    "message": "This switch changes the exact-host exclusion. Additional app rules may still keep downloads in the browser."
+  },
+  "popupOpenError": {
+    "message": "Colibri could not be opened. Check host registration and compatible versions, then try again."
+  },
+  "policyTitle": {
+    "message": "Last known capture policy"
+  },
+  "policyReadOnly": {
+    "message": "Category defaults from Colibri. Change actions and scoped exclusions in the desktop settings."
+  },
+  "policyLegacy": {
+    "message": "This app supplies a legacy file-type list. Eligible listed downloads ask for confirmation."
+  },
+  "categoryCompressed": {
+    "message": "Archives"
+  },
+  "categoryDocuments": {
+    "message": "Documents"
+  },
+  "categoryMusic": {
+    "message": "Audio"
+  },
+  "categoryPrograms": {
+    "message": "Programs"
+  },
+  "categoryVideo": {
+    "message": "Video"
+  },
+  "categoryOther": {
+    "message": "Other"
+  },
+  "actionCapture": {
+    "message": "Capture"
+  },
+  "actionAsk": {
+    "message": "Ask"
+  },
+  "actionBrowser": {
+    "message": "Keep in browser"
+  },
+  "privateAllowed": {
+    "message": "Private capture enabled"
+  },
+  "privateOff": {
+    "message": "Private capture off"
+  },
+  "reasonTitle": {
+    "message": "Latest capture decision"
+  },
+  "reasonPrivacy": {
+    "message": "Reason codes only, kept in memory for this background session. Private captures are omitted."
+  },
+  "reasonNone": {
+    "message": "No decision recorded in this session."
+  },
+  "reasonDisabled": {
+    "message": "Kept in browser: capture is disabled."
+  },
+  "reasonPrivate": {
+    "message": "Kept in browser: private capture is restricted."
+  },
+  "reasonExcluded": {
+    "message": "Kept in browser: an app exclusion matched."
+  },
+  "reasonMethod": {
+    "message": "Kept in browser: only observed GET requests can be replayed."
+  },
+  "reasonMinimum": {
+    "message": "Kept in browser: the known file size is below the configured minimum."
+  },
+  "reasonPreference": {
+    "message": "Kept in browser: this file type is configured to stay in the browser."
+  },
+  "reasonScheme": {
+    "message": "Kept in browser: this URL scheme is unsupported."
+  },
+  "reasonRules": {
+    "message": "Kept in browser: the legacy file-type or minimum-size rule did not match."
+  },
+  "reasonSafety": {
+    "message": "Kept in browser: the request context could not be safely handed off."
+  },
+  "reasonBypass": {
+    "message": "Kept in browser: the configured bypass modifier applied."
+  },
+  "reasonAssociation": {
+    "message": "Kept in browser: no unique eligible request could be associated."
+  },
+  "reasonUnconfirmed": {
+    "message": "Acceptance was not confirmed. The browser copy is retained; review Colibri after an interrupted handoff."
+  },
+  "policyOverrides": {
+    "message": "$COUNT$ extension overrides may change these defaults.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "policyConstraints": {
+    "message": "Minimum: $SIZE$ KiB · $PRIVATE$ · $COUNT$ exclusions",
+    "placeholders": {
+      "size": {
+        "content": "$1"
+      },
+      "private": {
+        "content": "$2"
+      },
+      "count": {
+        "content": "$3"
+      }
+    }
+  },
+  "pickerCategoryHint": {
+    "message": "Filename category: $CATEGORY$",
+    "placeholders": {
+      "category": {
+        "content": "$1"
+      }
+    }
+  },
+  "pickerCategoryPreview": {
+    "message": "Selected filename categories: $COUNTS$",
+    "placeholders": {
+      "counts": {
+        "content": "$1"
+      }
+    }
+  },
+  "contextMenuPageMedia": {
+    "message": "Choose page media with Colibri"
+  },
+  "mediaTitle": {
+    "message": "Choose page media"
+  },
+  "mediaHint": {
+    "message": "Direct filename audio/video hints only. Quality and size are unknown. Protected media and HLS/DASH are unsupported here. Choose one source for Colibri confirmation."
+  },
+  "mediaEmpty": {
+    "message": "No eligible direct audio/video filename sources found in this frame."
+  },
+  "mediaAudio": {
+    "message": "Audio source"
+  },
+  "mediaVideo": {
+    "message": "Video source"
+  },
+  "mediaExpired": {
+    "message": "This selection expired. Open Choose page media again."
+  },
+  "mediaFallback": {
+    "message": "No confirmed acceptance. Check Colibri before choosing again; page playback stays available."
+  }
+}

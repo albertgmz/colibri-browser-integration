@@ -1,0 +1,5 @@
+{
+  "extends": "./.wxt/tsconfig.json",
+  "compilerOptions": { "strict": true, "noUncheckedIndexedAccess": true, "noUnusedLocals": true, "noUnusedParameters": true, "types": ["node"], "resolveJsonModule": true },
+  "exclude": ["node_modules", ".output", "tests/fixtures"]
+}

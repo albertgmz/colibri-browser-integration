@@ -1,0 +1,21 @@
+node_modules/
+.wxt/
+.output/
+coverage/
+
+# Local agent/editor config
+CLAUDE.md
+AGENTS.md
+.claude/
+.superpowers/
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*

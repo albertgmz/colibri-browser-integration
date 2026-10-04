@@ -1,0 +1,14 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Colibri</title></head>
+<body class="picker"><main>
+  <header><img src="/icons/icon-32.png" width="32" height="32" alt=""><h1 data-i18n="pickerTitle"></h1></header>
+  <p class="hint" data-i18n="pickerIntro"></p>
+  <p class="hint" data-i18n="pickerDestination"></p>
+  <p id="status" role="status" aria-live="polite"></p>
+  <label for="search" data-i18n="pickerSearch"></label><input id="search" type="search" maxlength="200" autocomplete="off">
+  <div class="picker-tools"><button id="select" data-i18n="pickerSelect"></button><button id="clear" data-i18n="pickerClear"></button></div>
+  <p id="count" role="status" aria-live="polite"></p>
+  <p id="preview" class="hint" role="status" aria-live="polite"></p>
+  <ul id="links"></ul><p id="empty" data-i18n="pickerEmpty" hidden></p>
+  <footer><button id="submit" data-i18n="pickerSubmit" disabled></button><button id="close" data-i18n="pickerClose"></button></footer>
+</main><script type="module" src="./main.ts"></script></body></html>
